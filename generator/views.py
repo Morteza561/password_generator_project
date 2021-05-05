@@ -12,7 +12,7 @@ def about(request):
 
 def password(request):
     generated_password = ''
-    pass_dic = list('MortezaTalebiabcdefghijklmnopqrstuvwxyz')
+    pass_dic = list('Mortezaabcdefghijklmnopqrstuvwxyz')
     u_case_dic = list('ABCDEFGHIJKLMNOPQRSTUVWXYZ')
     number_dic = list('0123456789')
     special_dic = list('!@#$%^&*()')
